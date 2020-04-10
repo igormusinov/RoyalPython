@@ -10,3 +10,6 @@ install:
 decompile: compile install
 	uncompyle6 __pycache__/main.cpython-37.pyc > decompiled_main.py
 
+disasm:
+	python -c "import main, dis; print(dis.dis(main))"
+
