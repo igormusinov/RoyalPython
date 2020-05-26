@@ -2,6 +2,10 @@
 from config import *
 import sys
 
+def func_():
+	print("Hello")
+	return
+
 # sys.path.append("....")
 # print(globals())
 # print(locals())
